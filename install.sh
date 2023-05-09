@@ -66,6 +66,8 @@ install_dependency() {
 		sudo apt install -y xclip &&
 		sudo apt install -y python3-dev python3-pip &&
 		sudo apt install -y ripgrep
+	
+	pip3 install pythonenv
 
 	# nerd font
 	wget -P /tmp/ https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.0/Hack.zip
