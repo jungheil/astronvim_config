@@ -67,6 +67,7 @@ install_dependency() {
 		sudo apt install -y python3-dev python3-pip &&
 		sudo apt install -y ripgrep
 	
+	sudo apt install -y nodejs npm python3-venv
 	pip3 install pythonenv
 
 	# nerd font
